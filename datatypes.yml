@@ -11,11 +11,11 @@ all be
 in one single line
 
 # same as
-message: this will all be in one single line
+message: !!str this will all be in one single line
 
 number: 5473
 marks: 98.76
-booleanValue: No # n, N, false, False, FALSE
+booleanValue: !!bool No # n, N, false, False, FALSE
 # same for true -> yes, y, Y
 
 # specify the type
@@ -26,3 +26,19 @@ binaryNum: !!int 0b11001
 octNum: !!int 06574
 hexa: !!int 0x45
 commaValue: !!int +540_000 # 540,000
+exponential numbers: 6.023E56
+
+# floating point numbers
+marks: !!float 56.89
+infinite: !!float .inf
+not a num: .nan
+
+# null
+surname: !!null Null # or null NULL ~
+~: this is a null key
+
+# dates and time
+date: !!timestamp 2002-12-14
+canonical: 2001-12-15T02:59:43.1Z
+india time: 2001-12-15T02:59:43.10 +5:30 
+no time zone (Z): 2001-12-15 2:59:43.10
