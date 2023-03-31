@@ -1,0 +1,28 @@
+# String variables
+name: Kanak Jadaun
+  # : variable
+fruit: "apple"
+job: "swe"  
+
+# write a single line in multiple lines
+message: >
+this will
+all be
+in one single line
+
+# same as
+message: this will all be in one single line
+
+number: 5473
+marks: 98.76
+booleanValue: No # n, N, false, False, FALSE
+# same for true -> yes, y, Y
+
+# specify the type
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b11001
+octNum: !!int 06574
+hexa: !!int 0x45
+commaValue: !!int +540_000 # 540,000

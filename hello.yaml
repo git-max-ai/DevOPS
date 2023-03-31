@@ -16,5 +16,9 @@ cities:
  -mumbai
  -gujrat
 # -delhi ---->error -->identation error
+---
+cities: [new delhi, mumbai]
+---
+{mango: "yellow fruit", age: 56}
 ...
 # document finished here
