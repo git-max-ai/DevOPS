@@ -1,0 +1,20 @@
+# we can also store key-value pairs here like hashmap and dictionary .. we can make hashmao using this-
+"apple" : "I am a red fruit"
+1: "this is a number" 
+# we use --- to seperate documents in yaml so that yaml will know these are different documents
+---
+# yaml is case sensiitive
+# lists
+-apple
+-mango
+-banana
+-Apple
+---
+# block
+cities:
+ -new delhi
+ -mumbai
+ -gujrat
+# -delhi ---->error -->identation error
+...
+# document finished here
