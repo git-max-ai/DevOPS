@@ -1,4 +1,4 @@
-# we can also store key-value pairs here like hashmap and dictionary .. we can make hashmao using this-
+# we can also store key-value pairs here like hashmap and dictionary .. we can make hashmap using this-
 "apple" : "I am a red fruit"
 1: "this is a number" 
 # we use --- to seperate documents in yaml so that yaml will know these are different documents
