@@ -1,0 +1,14 @@
+---
+School:
+-name: DPS
+  principal: Someone
+  Students: 
+  -rno: 12
+  name: Kunal
+  marks: 98
+
+
+# yaml tools ---->
+# datree
+# monokle (by Kubeshop)
+# lens
